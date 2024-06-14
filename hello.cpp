@@ -4,7 +4,7 @@ vector<int> sortRev(vector<int>& arr);
 
 int main()
 {
-    vector<int> arr = {31, 41, 59, 26, 41, 58};
+    vector<int> arr = {31, 41, 59, 26, 41, 58, 1, 12, 63};
     vector<int> sorted = sortRev(arr);
 
     for (int num: sorted)
